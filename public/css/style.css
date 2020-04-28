@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 :root {
 	--dark-color-a: #667aff;
@@ -15,7 +15,7 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
 	font-size: 16px;
 	background: var(--light-color);
 	margin: 20px;
@@ -36,6 +36,7 @@ a {
 	color: var(--dark-color-a);
 	border: 0;
 	font-size: 17px;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 /* Chat Page */
@@ -152,15 +153,18 @@ a {
 
 .join-main .form-control {
 	margin-bottom: 20px;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 .join-main label {
 	display: block;
+	font-family: 'Titillium Web', sans-serif;
 	margin-bottom: 5px;
 }
 
 .join-main input[type='text'] {
 	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
 	padding: 5px;
 	height: 40px;
 	width: 100%;
@@ -168,6 +172,7 @@ a {
 
 .join-main select {
 	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
 	padding: 5px;
 	height: 40px;
 	width: 100%;
@@ -176,6 +181,7 @@ a {
 .join-main .btn {
 	margin-top: 20px;
 	width: 100%;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 @media (max-width: 700px) {
